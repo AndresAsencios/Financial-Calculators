@@ -3,7 +3,7 @@ package com.pluralsight;
 import java.util.Scanner;
 
 public class MortgageCalculator {
-    public static void main(String[] args) {
+    public static void calculate() {
         Scanner read = new Scanner(System.in);
 
 
@@ -46,6 +46,6 @@ public class MortgageCalculator {
         System.out.printf("Loan Amount After Down Payment: $%.2f%n", loanAmount);
         System.out.printf("Monthly Payment: $%.2f%n", monthlyPayment);
         System.out.printf("Total Interest: $%.2f%n", totalInterest);
-        read.close();
+//        read.close();
     }
 }
